@@ -1,13 +1,14 @@
 [tool.poetry]
 name = "bunker"
 version = "0.1.0"
-description = "for my game/pet project 'bunker'"
+description = ""
 authors = ["Shevik11 <maksshevchuk621@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-psycopg2-binary = "^2.9.9"
+django-environ = "^0.11.2"
+virtualenv = "^20.26.3"
 
 
 [build-system]
